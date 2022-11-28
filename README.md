@@ -16,4 +16,6 @@ gf
 
 gf
 
+<figure><img src=".gitbook/assets/integrations-1.png" alt=""><figcaption></figcaption></figure>
+
 fggf
