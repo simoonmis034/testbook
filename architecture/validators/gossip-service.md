@@ -40,17 +40,14 @@ Nodes send push messages to PUSH\_FANOUT push peers.
 
 Upon receiving a push message, a node examines the message for:
 
-&#x20;  \+ Duplication: if the message has been seen before, the node drops the message and may respond with PushMessagePrune if forwarded from a low staked node
+1. Duplication: if the message has been seen before, the node drops the message and may respond with `PushMessagePrune` if forwarded from a low staked node
+2. New data: if the message is new to the node
+   * Stores the new information with an updated version in its cluster info and purges any previous older value
+   * Stores the message in `pushed_once` (used for detecting duplicates, purged after `PUSH_MSG_TIMEOUT * 5` ms)
+   * Retransmits the messages to its own push peers
+3. Expiration: nodes drop push messages that are older than `PUSH_MSG_TIMEOUT`
 
-&#x20; \+ New data: if the message is new to the node
 
-&#x20;    \+ Stores the new information with an updated version in its cluster info and purges any previous older value
-
-&#x20;   \+ Stores the message in pushed\_once (used for detecting duplicates, purged after PUSH\_MSG\_TIMEOUT \* 5 ms)
-
-&#x20;   \+ Retransmits the messages to its own push peers
-
-Expiration: nodes drop push messages that are older than PUSH\_MSG\_TIMEOUT
 
 ### Push Peers, Prune Message\#
 
