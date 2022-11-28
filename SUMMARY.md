@@ -26,3 +26,6 @@
     * [Overview](architecture/validators/overview.md)
     * [TPU](architecture/validators/tpu.md)
     * [TVU](architecture/validators/tvu.md)
+    * [Blockstore](architecture/validators/blockstore.md)
+    * [Gossip Service](architecture/validators/gossip-service.md)
+    * [The Runtime](architecture/validators/the-runtime.md)
