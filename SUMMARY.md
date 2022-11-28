@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Page 1](README.md)
-  * [Page 2](page-1/page-2/README.md)
-    * [Page 3](page-1/page-2/page-3.md)
+* [Learn](README.md)
+  * [Introduction to Put](learn/introduction-to-put/README.md)
+    * [What is Put](learn/introduction-to-put/what-is-put.md)
