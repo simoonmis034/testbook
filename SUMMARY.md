@@ -22,3 +22,7 @@
     * [Commitment Status](architecture/consensus/commitment-status.md)
     * [Secure Vote Signing](architecture/consensus/secure-vote-signing.md)
     * [Stake Delegation and Rewards](architecture/consensus/stake-delegation-and-rewards.md)
+  * [Validators](architecture/validators/README.md)
+    * [Overview](architecture/validators/overview.md)
+    * [TPU](architecture/validators/tpu.md)
+    * [TVU](architecture/validators/tvu.md)
