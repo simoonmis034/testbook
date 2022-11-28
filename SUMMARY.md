@@ -20,3 +20,5 @@
     * [Managing Forks](architecture/consensus/managing-forks.md)
     * [Turbine Block Propagation](architecture/consensus/turbine-block-propagation.md)
     * [Commitment Status](architecture/consensus/commitment-status.md)
+    * [Secure Vote Signing](architecture/consensus/secure-vote-signing.md)
+    * [Stake Delegation and Rewards](architecture/consensus/stake-delegation-and-rewards.md)
